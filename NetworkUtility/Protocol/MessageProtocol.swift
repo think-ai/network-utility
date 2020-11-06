@@ -17,6 +17,8 @@ protocol MessageProtocol {
     func getHeaderLine(name: String) -> String
     func withHeader(name: String, value: String) -> MessageProtocol
     func withAddedHeader(name: String, value: String) -> MessageProtocol
-    
+    func withoutHeader(name:String)->Stream
+    func getBody(name:String)->MessageProtocol
+    func withBody(name:String)->[String]
     
 }

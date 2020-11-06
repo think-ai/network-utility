@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E397417C25558713008F8CFF /* RequestProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397417B25558713008F8CFF /* RequestProtocal.swift */; };
 		E3CDB68825552D010004AD6B /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDB68725552D010004AD6B /* NetworkUtility.swift */; };
 		E3CDB68F25552E4F0004AD6B /* ClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDB68E25552E4F0004AD6B /* ClientProtocol.swift */; };
 		E3CDB69225552F360004AD6B /* MessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDB69125552F360004AD6B /* MessageProtocol.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E397417B25558713008F8CFF /* RequestProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocal.swift; sourceTree = "<group>"; };
 		E3CDB68425552D010004AD6B /* libNetworkUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CDB68725552D010004AD6B /* NetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
 		E3CDB68E25552E4F0004AD6B /* ClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProtocol.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E397417D25558895008F8CFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E397417B25558713008F8CFF /* RequestProtocal.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E3CDB67B25552D010004AD6B = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 			children = (
 				E3CDB68E25552E4F0004AD6B /* ClientProtocol.swift */,
 				E3CDB69125552F360004AD6B /* MessageProtocol.swift */,
+				E397417D25558895008F8CFF /* Extensions */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3CDB68F25552E4F0004AD6B /* ClientProtocol.swift in Sources */,
+				E397417C25558713008F8CFF /* RequestProtocal.swift in Sources */,
 				E3CDB69225552F360004AD6B /* MessageProtocol.swift in Sources */,
 				E3CDB68825552D010004AD6B /* NetworkUtility.swift in Sources */,
 			);

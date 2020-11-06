@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E3CDB68825552D010004AD6B /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDB68725552D010004AD6B /* NetworkUtility.swift */; };
+		E3CDB68F25552E4F0004AD6B /* ClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDB68E25552E4F0004AD6B /* ClientProtocol.swift */; };
+		E3CDB69225552F360004AD6B /* MessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDB69125552F360004AD6B /* MessageProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		E3CDB68425552D010004AD6B /* libNetworkUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CDB68725552D010004AD6B /* NetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
+		E3CDB68E25552E4F0004AD6B /* ClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProtocol.swift; sourceTree = "<group>"; };
+		E3CDB69125552F360004AD6B /* MessageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				E3CDB68725552D010004AD6B /* NetworkUtility.swift */,
+				E3CDB69025552EF50004AD6B /* Protocol */,
 			);
 			path = NetworkUtility;
+			sourceTree = "<group>";
+		};
+		E3CDB69025552EF50004AD6B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E3CDB68E25552E4F0004AD6B /* ClientProtocol.swift */,
+				E3CDB69125552F360004AD6B /* MessageProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CDB68F25552E4F0004AD6B /* ClientProtocol.swift in Sources */,
+				E3CDB69225552F360004AD6B /* MessageProtocol.swift in Sources */,
 				E3CDB68825552D010004AD6B /* NetworkUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
